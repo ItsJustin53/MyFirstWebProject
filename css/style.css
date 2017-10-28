@@ -1,7 +1,11 @@
+head{
+  margin: 0px;
+  padding: 0px;
+  padding-top:0;
+}
 body {
   background-color: hotpink;
   color: white;
-  text-align: justify;
   font-family: Courier;
 }
 p{
@@ -10,31 +14,35 @@ p{
 #one{
   color: #fcfcfc;
   text-align: center;
+  font-size: 18pt;
 }
-  img{
-    display: block;
-    margin: auto;
-    width: 50%;
-    border-radius: 0%;
-    border-style: solid;
-    border-color:white;
+
+
+.dexter{
+    max-width: 40%;
+    height:280px;
+    border-radius: 50%;
+    float:right;
   }
 #heading{
   font-weight: bold;
   text-align: center;
 }
-#two{
-  text-align: justify;
+.para{
+  max-width: 50%;
+  float: left;
   background-color: #03ACCC;
   padding: 5px;
   padding-left: 5px;
-  padding-right: 5px;
+
 }
 #three{
   text-align: center;
   font-style: italic;
 }
-#four{
+.four{
+  max-width:50%;
+  float:left;
   background-color: purple;
   padding-left: 3px;
   padding-right: 3px;
@@ -44,29 +52,40 @@ p{
   background-color: #61C4E3;
   padding: 5px;
 }
-#six{
+.six{
   background-color: #6234d8;
-  padding: 5px;
-  padding-left: 3px:
+  float:left;
+  padding-top: 5px;
+  padding-left: 3px;
   padding-right: 3px;
+  left:0px;
 }
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #a166ba;
+    background-color: black;
     position: fixed;
     width: 100%;
-}
+    top:0;
+    margin-top: 0px;
+    margin-bottom: 200px;
 
+}
+.pictwo{
+  float:right;
+  border-radius: 100%;
+  max-width: 50%;
+}
+.picthree{
+  float:right;
+  max-width:50%;
+}
 li {
     float: left;
 }
 
 li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 20px 25px;
     text-decoration: none;
