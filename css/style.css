@@ -19,27 +19,37 @@ p{
 
 
 .dexter{
-    max-width: 40%;
+    max-width: 50%;
     height:280px;
     border-radius: 50%;
+    vertical-align:top;
     float:right;
+    max-height: 33%;
   }
 #heading{
   font-weight: bold;
   text-align: center;
 }
-.para{
+.content-row{
   max-width: 50%;
-  float: left;
   background-color: #03ACCC;
   padding: 5px;
   padding-left: 5px;
-
+  float:left;
+  min-width: 50%
 }
 #three{
   text-align: center;
   font-style: italic;
 }
+
+.content-row{
+  max-width: 50%;
+    border:1px solid red;
+    float:left;
+    display: inline;
+}
+
 .four{
   max-width:50%;
   float:left;
@@ -71,12 +81,15 @@ ul {
     top:0;
     margin-top: 0px;
     margin-bottom: 200px;
+    left:0;
 
 }
 .pictwo{
   float:right;
   border-radius: 100%;
   max-width: 50%;
+  min-width: 50%;
+  max-width: 33%
 }
 .picthree{
   float: right;
